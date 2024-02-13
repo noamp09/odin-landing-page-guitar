@@ -17,15 +17,41 @@
     gap: 20px;
 }
 
-a {
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.hero{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .text{
+    width: 360px;
+}
+
+.text .main-text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.text .secondary-text, a {
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
     font-weight: lighter;
 }
 
-.logo{
-    font-size: 24px;
+.sign-up-button{
+    background-color: #3882f6;
     color: #f9faf8;
+    padding: 10px 30px;
+    border-radius: 10px;
     font-weight: bold;
 }
