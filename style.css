@@ -1,6 +1,6 @@
-* {
-    font-family: sans-serif;
-}
+body {
+    font-family: 'roboto', sans-serif;
+  }
 
 .top{
     display: flex;
@@ -35,7 +35,7 @@
 }
 
 .hero .text{
-    width: 450px;
+    width: 445px;
     margin-right: 50px;
 }
 
@@ -50,7 +50,7 @@
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .sign-up-button{
@@ -60,14 +60,15 @@
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .hero .pic{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(105, 112, 108);
+    background-color: #6d747d;
     color: #ebebeb;
-    width: 400px;
-    height: 180px;
+    width: 500px;
+    height: 235px;
 }
