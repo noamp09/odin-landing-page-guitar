@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 .top{
     display: flex;
     flex-direction: column;
@@ -31,7 +35,8 @@
 }
 
 .hero .text{
-    width: 360px;
+    width: 450px;
+    margin-right: 50px;
 }
 
 .text .main-text{
@@ -49,9 +54,20 @@
 }
 
 .sign-up-button{
+    margin-top: 10px;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
+}
+
+.hero .pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 112, 108);
+    color: #ebebeb;
+    width: 400px;
+    height: 180px;
 }
