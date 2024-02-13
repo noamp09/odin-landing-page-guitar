@@ -10,7 +10,9 @@ body {
     background-color: #1f2937;
 }
 
-.header{
+ /* header section */
+
+ .header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -71,4 +73,42 @@ body {
     color: #ebebeb;
     width: 500px;
     height: 235px;
+}
+
+/* mid section */
+
+.mid{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid .random{
+    margin: 50px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.subtext-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtext-container .subtext{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    width: 150px;
+    height: 250px;
+    gap: 10px;
+}
+
+.subtext .empty-box{
+    height: 150px;
+    width: inherit;
+    border-radius: 15px;
+    border: solid #3b82f6;
 }
