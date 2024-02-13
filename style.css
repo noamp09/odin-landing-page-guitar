@@ -87,8 +87,9 @@ body {
 
 .mid .random{
     margin: 50px;
+    margin-bottom: 20px;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .subtext-container{
@@ -100,6 +101,7 @@ body {
 .subtext-container .subtext{
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin: 25px;
     width: 150px;
     height: 250px;
@@ -112,3 +114,4 @@ body {
     border-radius: 15px;
     border: solid #3b82f6;
 }
+
