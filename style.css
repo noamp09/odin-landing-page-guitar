@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    height: 400px;
+    height: 500px;
     background-color: #1f2937;
 }
 
@@ -82,12 +82,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    height: 500px;
+    padding: 10px;
 }
 
 .mid .random{
-    margin: 50px;
-    margin-bottom: 20px;
+    margin: 30px;
     font-weight: 800;
     font-size: 35px;
 }
@@ -114,4 +114,3 @@ body {
     border-radius: 15px;
     border: solid #3b82f6;
 }
-
