@@ -86,7 +86,7 @@ body {
     padding: 10px;
 }
 
-.mid .random{
+.mid .information{
     margin: 30px;
     font-weight: 800;
     font-size: 35px;
@@ -113,4 +113,28 @@ body {
     width: inherit;
     border-radius: 15px;
     border: solid #3b82f6;
+}
+
+/* quote section */
+
+.quote{
+    height: 500px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text{
+    width: 790px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.thor{
+    font-size: 25px;
+    align-self: flex-end;
+    font-weight: bold;
 }
