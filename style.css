@@ -2,6 +2,10 @@ body {
     font-family: 'roboto', sans-serif;
   }
 
+button:hover{
+    cursor: pointer;
+}
+
 .top{
     display: flex;
     flex-direction: column;
