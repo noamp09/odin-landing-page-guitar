@@ -60,7 +60,8 @@ button:hover{
 }
 
 .hero .pic{
-    border-radius: 5px;
+    box-shadow: 8px -8px 30px rgb(144, 179, 212);
+    border-radius: 15px;
     width: 500px;
     height: 235px;
 }
@@ -91,14 +92,13 @@ button:hover{
 .subtext-container .subtext{
     display: flex;
     flex-direction: column;
-    text-align: center;
     margin: 25px;
     width: 150px;
     height: 250px;
     gap: 10px;
 }
 
-.subtext .empty-box{
+.subtext .pic{
     height: 150px;
     width: inherit;
     border-radius: 15px;
