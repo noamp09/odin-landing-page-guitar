@@ -59,17 +59,6 @@ button:hover{
     font-weight: 300;
 }
 
-.sign-up-button{
-    border: transparent;
-    margin-top: 10px;
-    background-color: #3882f6;
-    color: #f9faf8;
-    padding: 8px 30px;
-    border-radius: 7px;
-    font-weight: 550;
-    font-size: 16px;
-}
-
 .hero .pic{
     border-radius: 5px;
     width: 500px;
