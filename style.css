@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 30px; /* Updated padding value */
+    overflow-wrap: break-word;
   }
   
   .top {
@@ -114,6 +115,14 @@ body {
   
   /* quote section */
   
+  .quote {
+    overflow-x: auto;
+    display: flex; /* Make the quote section a flex container */
+    flex-direction: column; /* Stack elements vertically by default */
+    align-items: center; /* Center content horizontally */
+    flex-wrap: wrap;
+  }  
+  
   .quote .text {
     width: 790px;
     font-size: 36px;
@@ -146,9 +155,12 @@ body {
   
   /* Media queries for additional responsiveness adjustments (optional) */
   
-  @media (max-width: 768px) {
+  @media (max-width: 790px) {
     .hero {
       flex-wrap: wrap; /* Optionally wrap text and image on small screens */
+    }
+    .quote .text {
+      flex: 1; /* Allow full width when screen is narrower */
     }
   }
   
