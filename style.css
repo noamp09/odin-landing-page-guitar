@@ -71,11 +71,7 @@ button:hover{
 }
 
 .hero .pic{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #6d747d;
-    color: #ebebeb;
+    border-radius: 5px;
     width: 500px;
     height: 235px;
 }
