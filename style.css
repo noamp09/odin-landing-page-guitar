@@ -6,10 +6,6 @@ body {
     cursor: pointer;
   }
 
-  .header, .quote, .top, .copyright, .mid{
-    width: 100vw;
-  }
-
   .top,
   .mid,
   .quote {
